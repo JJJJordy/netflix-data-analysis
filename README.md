@@ -54,23 +54,21 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 
 ## Project Structure
 
-netflix-eda/
-├─ data/ <- raw dataset
-|── netflix_clean.csv
-|── netflix_clean.parquet
-|── netflix_titles.csv
-├─ notebooks/ <- Jupyter notebooks
-|── 01_load_and_scan.ipynb
-|── 02_cleaning_standardization.ipynb
-|── 03_exploratory_data_analysis.ipynb
-├─ reports/ <- exported visuals
-|── netflix_growth_over_time.png
-|── netflix_top_genres.png
-|── netflix_top_ratings_by_type.png
-|── netflix_top_ratings.png
-├─ .gitignore
-├─ requirements.txt
-└─ README.md <- project overview
+├── data
+│ ├── netflix_clean.csv
+│ ├── netflix_clean.parquet
+│ └── netflix_titles.csv
+├── notebooks
+│ ├── 01_load_and_scan.ipynb
+│ ├── 02_cleaning_standardization.ipynb
+│ └── 03_exploratory_data_analysis.ipynb
+├── README.md
+├── reports
+│ ├── netflix_growth_over_time.png
+│ ├── netflix_top_genres.png
+│ ├── netflix_top_ratings_by_type.png
+│ └── netflix_top_ratings.png
+└── requirements.txt
 
 ---
 
