@@ -51,7 +51,7 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 
 ## ⚡ Tools & Libraries
 
-- Python 3.12
+- Python 3.13.7
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Jupyter Lab
