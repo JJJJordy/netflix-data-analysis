@@ -1,19 +1,18 @@
-# Netflix Movies & TV Shows - Exploratory Data Analysis (EDA)
+# 📺 Netflix Movies & TV Shows – Exploratory Data Analysis
 
-## Author
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-lightblue?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-orange?logo=python)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-Jordan Purcell  
-[jjordan.p98@gmail.com]  
-[LinkedIn](https://www.linkedin.com/in/jordan-purcell-07352523a/) | [GitHub](https://github.com/JJJJordy)
+This project explores the **Netflix Movies and TV Shows dataset** to understand how Netflix’s catalog has evolved over time.  
+The analysis uncovers insights on growth, genres, and audience targeting using **Python, Pandas, Matplotlib, and Seaborn**.
 
 ---
 
-This project explores the **Netflix Movies and TV Shows dataset** to uncover how the platform’s catalog has evolved over time.  
-Using **Python (Pandas, NumPy, Matplotlib, Seaborn)**, I clean and analyze the dataset to identify growth trends, genre distributions, and audience targeting patterns.
-
----
-
-## Goals
+## 🎯 Goals
 
 - Clean and standardize raw dataset
 - Explore patterns by year, rating, country, and genre
@@ -21,20 +20,18 @@ Using **Python (Pandas, NumPy, Matplotlib, Seaborn)**, I clean and analyze the d
 
 ---
 
-## Dataset
+## 📑 Dataset
 
-[Netflix Movies and TV Shows](https://www.kaggle.com/shivamb/netflix-shows)
+[Netflix Movies and TV Shows (Kaggle)](https://www.kaggle.com/shivamb/netflix-shows)  
 Contains ~8,800 titles with metadata such as type, release year, director, cast, country, rating, and description.
 
 ---
 
-## Guiding Question
+## ❓ Guiding Question
 
 **How has Netflix’s catalog evolved over time in terms of Movies vs. TV Shows, genres, and audience ratings?**
 
----
-
-## Sub-questions
+### 🔍 Sub-questions
 
 1. **Growth Over Time**
 
@@ -52,36 +49,36 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 
 ---
 
-## Project Structure
+## ⚡ Tools & Libraries
 
-├── data
-│ ├── netflix_clean.csv
-│ ├── netflix_clean.parquet
-│ └── netflix_titles.csv
-├── notebooks
-│ ├── 01_load_and_scan.ipynb
-│ ├── 02_cleaning_standardization.ipynb
-│ └── 03_exploratory_data_analysis.ipynb
-├── README.md
-├── reports
-│ ├── netflix_growth_over_time.png
-│ ├── netflix_top_genres.png
-│ ├── netflix_top_ratings_by_type.png
-│ └── netflix_top_ratings.png
-└── requirements.txt
-
----
-
-## Tools & Libraries
-
-- Python 3.13.7
+- Python 3.12
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Jupyter Lab
 
 ---
 
-## Expected Insights
+## 📂 Project Structure
+
+    ├── data
+    │ ├── netflix_clean.csv
+    │ ├── netflix_clean.parquet
+    │ └── netflix_titles.csv
+    ├── notebooks
+    │ ├── 01_load_and_scan.ipynb
+    │ ├── 02_cleaning_standardization.ipynb
+    │ └── 03_exploratory_data_analysis.ipynb
+    ├── README.md
+    ├── reports
+    │ ├── netflix_growth_over_time.png
+    │ ├── netflix_top_genres.png
+    │ ├── netflix_top_ratings_by_type.png
+    │ └── netflix_top_ratings.png
+    └── requirements.txt
+
+---
+
+## 📈 Expected Insights
 
 - Netflix’s catalog has grown significantly since 2010, with a shift toward **more TV Shows**.
 - **Dramas, Comedies, and Documentaries** dominate the catalog.
@@ -89,7 +86,7 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 
 ---
 
-## Key Insights
+## 📊 Key Insights
 
 ### 1. Growth Over Time
 
@@ -117,3 +114,11 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 - **TV Shows** are more likely to be **TV-MA**, while Movies spread across PG/PG-13/R.
 
 ![Top Ratings](reports/netflix_top_ratings.png)
+
+---
+
+## ✍️ Author
+
+**Jordan Purcell**  
+📧 [jjordan.p98@gmail.com](mailto:jjordan.p98@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jordan-purcell-07352523a/) | [GitHub](https://github.com/JJJJordy)
