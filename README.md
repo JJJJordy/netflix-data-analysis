@@ -1,6 +1,6 @@
 # 📺 Netflix Movies & TV Shows – Exploratory Data Analysis
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.13.7-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-lightblue?logo=pandas)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-orange?logo=python)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=python)
