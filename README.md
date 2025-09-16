@@ -117,6 +117,12 @@ Contains ~8,800 titles with metadata such as type, release year, director, cast,
 
 ---
 
+📈 Tableau Dashboard
+
+To complement the Python analysis, I built an **interactive Tableau dashboard** that lets you explore Netflix’s catalog by year, type, genre, and rating.
+
+🔗 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/jordan.purcell/viz/netflix-data-analysis/NetflixDashboard)
+
 ## ✍️ Author
 
 **Jordan Purcell**  
